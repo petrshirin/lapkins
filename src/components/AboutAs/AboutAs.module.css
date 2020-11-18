@@ -1,0 +1,42 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1.2em;
+    text-align: center;
+    color: #943EB2;
+
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 250px;
+}
+
+.textContainer {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+
+    color: #7B7B7B;
+    width: 50%;
+    text-align: left;
+}
+
+.imgContainer {
+    width: 50%;
+}
