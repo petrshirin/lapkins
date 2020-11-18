@@ -2,7 +2,7 @@ import React from "react";
 import styles from './AboutAs.module.css'
 
 const AboutAs = () => (
-    <div className={styles.container}>
+    <div className={styles.AboutAs}>
         <div className={styles.header}>О нас</div>
         <div className={styles.contentContainer}>
         <div className={styles.textContainer}>

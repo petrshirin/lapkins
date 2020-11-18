@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    background: inherit;
+    width: 100vw;
+}
+
+.header {
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1.2em;
+    text-align: center;
+    color: #943EB2;
+
+}
+
+.headerLabel {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 60px;
+}
+
+.servicesColumn {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.servicesRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.servicesColumnCenter {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicesRowCenter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.serviceMainImg {
+    width: 40%;
+}

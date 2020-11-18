@@ -1,5 +1,5 @@
 .container {
-    width: 100vw;
+    width: 100%;
     display: block;
     background-image: url("/src/img/startBackground.png");
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-left: 7%;
+    margin-left: 5%;
 
     margin-top: 80px;
 }

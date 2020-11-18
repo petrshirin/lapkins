@@ -1,7 +1,8 @@
 
-.container {
+.AboutAs {
     display: flex;
     flex-direction: column;
+    margin-top: 92px;
 
 }
 
@@ -21,9 +22,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 250px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 150px;
 }
 
 .textContainer {
@@ -33,10 +34,10 @@
     letter-spacing: 0.05em;
 
     color: #7B7B7B;
-    width: 50%;
+    width: 40%;
     text-align: left;
 }
 
 .imgContainer {
-    width: 50%;
+    width: 60%;
 }
