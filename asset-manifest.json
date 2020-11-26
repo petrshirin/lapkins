@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e25a4bbb.chunk.css",
+    "main.js": "/static/js/main.df9e4cc9.chunk.js",
+    "main.js.map": "/static/js/main.df9e4cc9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cf06a1b2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cf06a1b2.js.map",
+    "static/js/2.6dea0995.chunk.js": "/static/js/2.6dea0995.chunk.js",
+    "static/js/2.6dea0995.chunk.js.map": "/static/js/2.6dea0995.chunk.js.map",
+    "static/js/3.6d9d42e3.chunk.js": "/static/js/3.6d9d42e3.chunk.js",
+    "static/js/3.6d9d42e3.chunk.js.map": "/static/js/3.6d9d42e3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e25a4bbb.chunk.css.map": "/static/css/main.e25a4bbb.chunk.css.map",
+    "static/js/2.6dea0995.chunk.js.LICENSE.txt": "/static/js/2.6dea0995.chunk.js.LICENSE.txt",
+    "static/media/1.a8917d87.jpg": "/static/media/1.a8917d87.jpg",
+    "static/media/2.c5303015.jpg": "/static/media/2.c5303015.jpg",
+    "static/media/3.84921842.jpg": "/static/media/3.84921842.jpg",
+    "static/media/4.f54cc10e.jpg": "/static/media/4.f54cc10e.jpg",
+    "static/media/5.9a90a84a.jpg": "/static/media/5.9a90a84a.jpg",
+    "static/media/6.69647287.jpg": "/static/media/6.69647287.jpg",
+    "static/media/7.9a412a04.jpg": "/static/media/7.9a412a04.jpg",
+    "static/media/8.3f8f781e.jpg": "/static/media/8.3f8f781e.jpg",
+    "static/media/9.8cf7c9d4.jpg": "/static/media/9.8cf7c9d4.jpg",
+    "static/media/InstIconPurple.cdce731e.svg": "/static/media/InstIconPurple.cdce731e.svg",
+    "static/media/TelIconPurple.ffe211e3.svg": "/static/media/TelIconPurple.ffe211e3.svg",
+    "static/media/animalIcon.17c01d51.svg": "/static/media/animalIcon.17c01d51.svg",
+    "static/media/gigena.8a5cc184.svg": "/static/media/gigena.8a5cc184.svg",
+    "static/media/hear.7ae67c00.svg": "/static/media/hear.7ae67c00.svg",
+    "static/media/MasterClass.module.css": "/static/media/masterClassBackGround.ae99300a.png",
+    "static/media/serviceMainImg.c16799a4.png": "/static/media/serviceMainImg.c16799a4.png",
+    "static/media/GroomingServices.module.css": "/static/media/servicesBackGround.9075c61d.png",
+    "static/media/spa.a61ab392.svg": "/static/media/spa.a61ab392.svg",
+    "static/media/siteHeader.module.css": "/static/media/startBackground.75e74dae.png",
+    "static/media/whereMe.d4412f3e.png": "/static/media/whereMe.d4412f3e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf06a1b2.js",
+    "static/js/2.6dea0995.chunk.js",
+    "static/css/main.e25a4bbb.chunk.css",
+    "static/js/main.df9e4cc9.chunk.js"
+  ]
+}
