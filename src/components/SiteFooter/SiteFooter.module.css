@@ -23,7 +23,7 @@
 }
 
 .positionText {
-    font-size: 18px;
+    font-size: 1em;
     width: 90%;
     text-align: left;
 }
@@ -45,10 +45,35 @@
     display: flex;
     flex-direction: row;
     width: 30%;
-    letter-spacing: 0.05em;
     margin-left: 7%;
+    align-items: center;
 }
 
 .socialNetworkContainer img {
     margin-right: 30px;
+    width: 1.8em;
+    height: 1.8em;
 }
+
+@media (min-width: 1px) and (max-width: 1000px) {
+    .headerButtons {
+        display: none;
+    }
+    .headerContainer {
+        padding-top: 0;
+        width: 90%;
+    }
+    .phone {
+        display: none;
+    }
+    .positionText {
+        width: 70%;
+        font-size: 0.7em;
+    }
+    .container {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+}
+

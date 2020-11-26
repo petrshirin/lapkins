@@ -4,7 +4,7 @@
     background-image: url("/src/img/startBackground.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 110vh;
+    padding-bottom: 400px;
 
 }
 
@@ -26,7 +26,7 @@
 }
 
 .positionText {
-    font-size: 24px;
+    font-size: 1.5em;
     width: 70%;
 }
 
@@ -47,6 +47,8 @@
 
 .socialNetworkContainer img {
     margin-left: 30%;
+    width: 2em;
+    height: 2em;
 }
 
 .contentContainer {
@@ -76,8 +78,119 @@
     border-top: 2px solid #FE7F2D;
     text-align: left;
     width: 25%;
+    margin-bottom: 30px;
 }
 
 .titleContainer span {
     color: #FE7F2D;
 }
+
+.noneDisplay {
+    display: none;
+}
+
+.headerButtonsMobile {
+    display: none;
+}
+
+.mobileSiteBar {
+    display: none;
+}
+
+.headerContainerMobile {
+    display: none;
+}
+
+@media (min-width: 1px) and (max-width: 1000px) {
+    .headerContainerMobile {
+        width: 85vw;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .contentContainer .textContainer {
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        width: 100%;
+        display: block;
+        background-image: url("/src/img/startBackGroundMobile.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-bottom: 0;
+        height: 100vh;
+    }
+
+    .leftBar {
+        display: none;
+    }
+    .positionText {
+        display: none;
+    }
+    .headerContainer {
+        display: none;
+    }
+    .headerButtonsMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .headerButtonsMobile * {
+        margin-bottom: 41px;
+    }
+    .headerButtonsMobile a {
+        font-family: Roboto Slab, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #943EB2;
+    }
+    .mobileIcon {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        width: 80%;
+
+    }
+    .mobileIcon img:first-child{
+        margin-right: 20%;
+
+    }
+    .titleContainer {
+        font-size: 2em;
+        text-align: center;
+    }
+    .mobileSiteBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+

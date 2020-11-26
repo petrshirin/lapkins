@@ -24,3 +24,10 @@
     width: 100%;
     height: auto;
 }
+
+@media (min-width: 1px) and (max-width: 1000px) {
+
+    .container {
+        margin-top: 0;
+    }
+}

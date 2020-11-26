@@ -1,5 +1,4 @@
 
-
 .container {
     display: flex;
     flex-direction: row;
@@ -45,6 +44,59 @@
 
 }
 
+@media (min-width: 1px) and (max-width: 1000px) {
+    .textContainerReverse {
+        text-align: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-size: 0.8em;
+        margin-left: 41px;
+
+    }
+
+    .textContainer {
+        font-size: 0.8em;
+        align-items: flex-start;
+        margin-left: 41px;
+    }
+
+    .container {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 21px;
+        display: grid;
+        grid-template-columns: 90px 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+    ". .";
+    }
+
+    .containerReverse {
+        width: 100%;
+        text-align: left;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 21px;
+        display: grid;
+        grid-template-columns: 90px 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+    ". .";
+    }
+
+    .containerReverse img {
+        margin-left: 0;
+
+    }
+
+    .container img {
+    }
+}
+
 .headerContainer {
     text-align: inherit;
     font-family: Roboto, monospace;
@@ -56,3 +108,4 @@
 
     color: #943EB2;
 }
+

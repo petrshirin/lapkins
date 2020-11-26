@@ -4,9 +4,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    padding-top: 138px;
+    padding-top: 238px;
     margin-top: 146px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
     background-image: url("/src/img/masterClassBackGround.png");
     background-size: 100% 100%;
     background-repeat: no-repeat
@@ -17,6 +17,7 @@
     flex-direction: column;
     margin-right: 5%;
     width: 45%;
+    align-items: flex-end;
 }
 
 .header {
@@ -48,9 +49,42 @@
 }
 
 .text {
-    text-align: left;
+    text-align: right;
     font-family: Roboto;
     width: 100%;
     color: #FFFFFF;
+    margin-bottom: 30px;
 
+}
+
+@media (min-width: 1px) and (max-width: 1000px) {
+    .header {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    .container {
+        justify-content: center;
+        align-items: center;
+        background-image: url("/src/img/masterClassBackGroundMobile.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top: 0;
+        width: 100%;
+    }
+    .content {
+        width: 75%;
+    }
+
+    .text {
+        text-align: center;
+        width: 100%;
+    }
+    .header {
+        text-align: center;
+    }
+    .line {
+        width: 100%;
+    }
 }

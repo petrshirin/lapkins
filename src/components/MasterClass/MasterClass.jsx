@@ -1,6 +1,7 @@
 import React from "react"
 import styles from './MasterClass.module.css'
-
+import Button from '../../components/Button/Button'
+import InstIcon from '../../img/InstIcon.svg'
 
 const MasterClass = () => (
     <div className={styles.container}>
@@ -19,6 +20,9 @@ const MasterClass = () => (
                 Хочешь улучшить свои навыки? Следите за нами в инстаграме и не пропускайте обновления о мастер-классах.
                 Будем рады Всем!
             </div>
+            <Button>
+                <span>ПОДПИСАТЬСЯ <img src={InstIcon} style={{width: "1em"}}/></span>
+            </Button>
 
         </div>
     </div>

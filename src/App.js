@@ -10,15 +10,29 @@ import SiteFooter from  "./components/SiteFooter/SiteFooter"
 
 
 function App() {
+    const mainRef = "main";
+    const aboutUsRef = "aboutUs";
+    const servicesRef = "servicesRef";
+    const PortfolioRef = "portfolioRef";
+    const contactsRef = "contactsRef";
+
   return (
     <div className="App">
-      <SiteHeader />
-      <AboutAs />
-      <GroomingServices />
-      <Portfolio />
+      <SiteHeader goToRef={mainRef}
+                  aboutUsRef={aboutUsRef}
+                  servicesRef={servicesRef}
+                  portfolioRef={PortfolioRef}
+                  contactsRef={contactsRef} />
+      <AboutAs goToRef={aboutUsRef}/>
+      <GroomingServices goToRef={servicesRef}/>
+      <Portfolio goToRef={PortfolioRef}/>
       <MasterClass />
       <WhereMe />
-      <SiteFooter />
+      <SiteFooter goToRef={contactsRef}
+                  siteHeaderRef={mainRef}
+                  aboutUsRef={aboutUsRef}
+                  servicesRef={servicesRef}
+                  portfolioRef={PortfolioRef}/>
     </div>
   );
 }

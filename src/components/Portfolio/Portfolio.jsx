@@ -12,9 +12,10 @@ import Img6 from '../../img/portfolioImages/6.jpg'
 import Img7 from '../../img/portfolioImages/7.jpg'
 import Img8 from '../../img/portfolioImages/8.jpg'
 import Img9 from '../../img/portfolioImages/9.jpg'
+import useWindowDimensions from "../../utils/resize"
 
-const Portfolio = () => {
-
+const Portfolio = ({goToRef}) => {
+    const { height, width } = useWindowDimensions();
     const items = [
         {id: 1, src: Img1},
         {id: 2, src: Img2},
@@ -27,10 +28,17 @@ const Portfolio = () => {
         {id: 9, src: Img9}
     ]
 
+    let itemsToShow = 3
+    let itemsToScroll = 3
+    if (width < 1000) {
+        itemsToShow = 1
+        itemsToScroll = 1
+    }
+
     return (
-    <div className={styles.container}>
+    <div className={styles.container} id={goToRef}>
         <div className={styles.header}>Наши Работы</div>
-            <Carousel itemsToShow={3}  itemsToScroll={3}>
+            <Carousel itemsToShow={itemsToShow}  itemsToScroll={itemsToScroll}>
                 {items.map(item => <CarouselItem key={item.id} src={item.src} />)}
             </Carousel>
     </div>

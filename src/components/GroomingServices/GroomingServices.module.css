@@ -5,7 +5,6 @@
     padding-top: 300px;
     padding-bottom: 300px;
     width: 100%;
-    flex-wrap: wrap-reverse;
     background-image: url("/src/img/servicesBackGround.png");
     background-size: 100% 100%;
     background-repeat: no-repeat
@@ -71,4 +70,42 @@
 
 .serviceMainImg {
     width: 40%;
+}
+
+@media (min-width: 1px) and (max-width: 1000px) {
+    .container {
+        background-image: url("/src/img/servicesBackGroundMobile.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contentContainer {
+        margin-top: 20px;
+    }
+    .headerLabel {
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .servicesColumn {
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .servicesRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .servicesRowCenter {
+        display: none;
+    }
 }

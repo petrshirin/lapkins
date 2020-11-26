@@ -1,0 +1,32 @@
+
+.container {
+    background: linear-gradient(91.89deg, rgba(254, 127, 45, 0.57) 0.5%, #FE7F2D 0.51%, #FFA41D 99.3%);
+    box-shadow: 0px 4px 20px 10px rgba(254, 127, 45, 0.47);
+    border-radius: 50px;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container span {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 37px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+@media (min-width: 1px) and (max-width: 1000px) {
+    .container {
+        width: 70vw;
+        height: 70px;
+    }
+    .container span {
+        font-size: 2em;
+    }
+}

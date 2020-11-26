@@ -41,3 +41,19 @@
 .imgContainer {
     width: 60%;
 }
+
+@media (min-width: 320px) and (max-width: 1000px) {
+    .contentContainer {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .textContainer {
+        text-align: center;
+        width: 100%;
+    }
+    .imgContainer {
+        display: none;
+    }
+}
