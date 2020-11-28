@@ -26,11 +26,11 @@ const SiteHeader = ({goToRef, aboutUsRef, servicesRef, portfolioRef, contactsRef
                     <div className={styles.positionText}>г. Иркутск</div>
                 </div>
                 <div className={styles.headerButtons}>
-                    <HeaderButton name="Главная" refToView={goToRef}/>
-                    <HeaderButton name="О нас" refToView={aboutUsRef}/>
-                    <HeaderButton name="Услуги" refToView={servicesRef}/>
-                    <HeaderButton name="Наши работы" refToView={portfolioRef}/>
-                    <HeaderButton name="Контакты" refToView={contactsRef}/>
+                    <HeaderButton name="Главная" refToView={goToRef} setSiteBarCond={setSiteBarCond}/>
+                    <HeaderButton name="О нас" refToView={aboutUsRef} setSiteBarCond={setSiteBarCond}/>
+                    <HeaderButton name="Услуги" refToView={servicesRef} setSiteBarCond={setSiteBarCond}/>
+                    <HeaderButton name="Наши работы" refToView={portfolioRef} setSiteBarCond={setSiteBarCond}/>
+                    <HeaderButton name="Контакты" refToView={contactsRef} setSiteBarCond={setSiteBarCond}/>
                 </div>
                 <div className={styles.socialNetworkContainer}>
                     <img src={InstIcon} alt="Instagram"/>
@@ -44,11 +44,11 @@ const SiteHeader = ({goToRef, aboutUsRef, servicesRef, portfolioRef, contactsRef
                 </div>
                 <div className={!siteBarCond ? styles.noneDisplay : styles.headerButtonsMobile} >
                     <img className={!siteBarCond ? styles.noneDisplay : ""} src={ExitIcon} alt={"exit"} onClick={openCloseSiteBar}/>
-                    <HeaderButton name="Главная" refToView={goToRef}/>
-                    <HeaderButton name="О нас" refToView={aboutUsRef}/>
-                    <HeaderButton name="Услуги" refToView={servicesRef}/>
-                    <HeaderButton name="Наши работы" refToView={portfolioRef}/>
-                    <HeaderButton name="Контакты" refToView={contactsRef}/>
+                    <HeaderButton name="Главная" refToView={goToRef} setSiteBarCond={setSiteBarCond}/>
+                    <HeaderButton name="О нас" refToView={aboutUsRef} setSiteBarCond={setSiteBarCond}/>
+                    <HeaderButton name="Услуги" refToView={servicesRef} setSiteBarCond={setSiteBarCond}/>
+                    <HeaderButton name="Наши работы" refToView={portfolioRef} setSiteBarCond={setSiteBarCond}/>
+                    <HeaderButton name="Контакты" refToView={contactsRef} setSiteBarCond={setSiteBarCond}/>
                     <div className={styles.mobileIcon}>
                         <img src={InstIconPurple} alt="Instagram"/>
                         <img src={TelIconPurple} alt="Call" />
