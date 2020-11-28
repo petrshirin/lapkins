@@ -28,3 +28,9 @@
     }
 
 }
+
+@media (min-width: 1500px) and (max-width: 2000px) {
+    .container span {
+        font-size: 1em;
+    }
+}

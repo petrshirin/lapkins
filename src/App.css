@@ -13,7 +13,7 @@
 }
 
 .App a {
-  color: #7B7B7B;
+  color: #636363;
   text-decoration: none;
 }
 
@@ -22,3 +22,9 @@
   pointer-events: none;
 }
 
+
+.mapboxgl-popup-content {
+  background: #FFFFFF;
+  box-shadow: 4px 4px 5px 5px rgba(83, 0, 112, 0.2);
+  border-radius: 50px;
+}
