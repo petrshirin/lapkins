@@ -7,7 +7,10 @@ const HeaderButton = ({name, refToView, setSiteBarCond}) => (
         <a onClick={(event) => {
             document.getElementById(refToView).scrollIntoView({behavior: "smooth"})
             event.preventDefault()
-            setSiteBarCond(false)
+            if (setSiteBarCond) {
+                setSiteBarCond(false)
+            }
+
         }}>{name}</a>
     </div>
 )

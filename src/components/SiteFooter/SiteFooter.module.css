@@ -53,6 +53,7 @@
     margin-right: 30px;
     width: 1.8em;
     height: 1.8em;
+    cursor: pointer;
 }
 
 @media (min-width: 1px) and (max-width: 1000px) {

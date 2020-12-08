@@ -21,7 +21,10 @@ const MasterClass = () => (
                 Будем рады Всем!
             </div>
             <Button>
-                <span>ПОДПИСАТЬСЯ <img src={InstIcon} style={{width: "1em"}}/></span>
+                <a href={"https://www.instagram.com/lapkins.irk/"} target={"_blank"}>
+                    <span>ПОДПИСАТЬСЯ <img src={InstIcon} style={{width: "1em"}}/></span>
+                </a>
+
             </Button>
 
         </div>

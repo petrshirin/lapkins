@@ -44,12 +44,14 @@
     flex-direction: row;
     width: 10%;
     justify-content: space-around;
+
 }
 
 .socialNetworkContainer img {
     margin-left: 30%;
     width: 2em;
     height: 2em;
+    cursor: pointer;
 }
 
 .contentContainer {
@@ -178,6 +180,9 @@
         margin-left: 10%;
         width: 80%;
 
+    }
+    .mobileIcon img {
+        cursor: pointer;
     }
     .mobileIcon img:first-child{
         margin-right: 20%;

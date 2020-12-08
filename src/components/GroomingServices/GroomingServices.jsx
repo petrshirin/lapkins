@@ -54,7 +54,10 @@ const GroomingServices = ({goToRef}) =>  {
                 </div>
                 <div className={styles.servicesRowCenter} style={{marginTop: "30px"}}>
                     <Button>
-                        <span>ЗАПИСАТЬСЯ</span>
+                        <a href={"https://n376264.yclients.com/company:358241?o=m1053307s6331068,6330915,5837140d2022111000"} target={"_blank"}>
+                            <span>ЗАПИСАТЬСЯ</span>
+                        </a>
+
                     </Button>
                 </div>
             </div>

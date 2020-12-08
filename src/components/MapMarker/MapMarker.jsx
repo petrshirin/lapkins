@@ -13,31 +13,32 @@ const MapMarker = ({longitude, latitude}) => {
 
     return (
         <div>
-            <Marker
-                style=""
-                coordinates={{
-                    lng: longitude,
-                    lat: latitude
-                }}
-                anchor="top"
-                onClick={setVS}
-                data-vs={vis * -1}
-            >
-                <img src={MarkerIcon} alt={"Q"}/>
-            </Marker>
-            <Popup
-                coordinates={{
-                    lng: longitude,
-                    lat: latitude
-                }}
-            >
-                <div className={styles.popup}>
-                    <div className={styles.popupHeader}>г. Иркутск,</div>
-                    ул. Дальневосточная, 29/1, <br/>
-                    цокольный этаж
-                </div>
-            </Popup>
-
+            <a href={"https://yandex.ru/maps/-/CCUEB4F1sD"} target={"_blank"}>
+                <Marker
+                    style=""
+                    coordinates={{
+                        lng: longitude,
+                        lat: latitude
+                    }}
+                    anchor="top"
+                    onClick={setVS}
+                    data-vs={vis * -1}
+                >
+                    <img src={MarkerIcon} alt={"Q"}/>
+                </Marker>
+                <Popup
+                    coordinates={{
+                        lng: longitude,
+                        lat: latitude
+                    }}
+                >
+                    <div className={styles.popup}>
+                        <div className={styles.popupHeader}>г. Иркутск,</div>
+                        ул. Дальневосточная, 29/1, <br/>
+                        цокольный этаж
+                    </div>
+                </Popup>
+            </a>
         </div>
     )
 };

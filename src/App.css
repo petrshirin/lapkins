@@ -15,6 +15,7 @@
 .App a {
   color: #636363;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .App-logo {

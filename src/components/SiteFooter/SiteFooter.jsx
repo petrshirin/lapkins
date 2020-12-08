@@ -24,9 +24,16 @@ const SiteFooter = ({goToRef, siteHeaderRef, aboutUsRef, servicesRef, portfolioR
                     <HeaderButton name="Контакты" refToView={goToRef}/>
                 </div>
                 <div className={styles.socialNetworkContainer}>
-                    <img src={InstIconPurple} alt="Instagram"/>
-                    <img src={TelIconPurple} alt="Call"/>
-                    <span className={styles.phone}> +7(3952)66-00-67</span>
+                    <a target="_blank" href={"https://www.instagram.com/lapkins.irk/"}>
+                        <img src={InstIconPurple} alt="Instagram"/>
+                    </a>
+                    <a target="_blank" href={"https://api.whatsapp.com/send?phone=79025660067"}>
+                        <img src={TelIconPurple} alt="Call"/>
+                    </a>
+                    <a href={"tel:+79025660067"}>
+                        <span className={styles.phone}> +7(3952)66-00-67</span>
+                    </a>
+
                 </div>
             </div>
         </div>
